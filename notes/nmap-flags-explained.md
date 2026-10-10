@@ -17,7 +17,7 @@ Command: sudo nmap -O -p 22,80,110 scanme.nmap.org
 Result was NOT confident- nmap gave several gusses with percentages( VirtualBox 92%, QEMU 90%)
 
 ## Key takeaway
--sV gave reliable, specific answers. -O gave uncertain, percentage based gusses on this target. Version detection seems more dependable than OS detection, at leasr under these conditions.
+-sV gave reliable, specific answers. -O gave uncertain, percentage based gusses on this target. Version detection seems more dependable than OS detection, at least under these conditions.
 
 
  
